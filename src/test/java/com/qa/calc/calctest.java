@@ -17,5 +17,11 @@ public class calctest {
 		int result = calculator.multiply(2,2);
 		Assert.assertEquals(4, result);
 	}
+	@Test
+	public void DivideTwoNumbersTest() {
+		Calculator calculator = new Calculator();
+		int result = calculator.divide(2,2);
+		Assert.assertEquals(1, result);
+	}
 
 }
